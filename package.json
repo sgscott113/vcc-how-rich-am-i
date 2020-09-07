@@ -2,6 +2,7 @@
   "name": "how-rich-am-i",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sgscott113.github.io/vcc-how-rich-am-i",
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "@material-ui/icons": "^4.4.1",
@@ -14,6 +15,7 @@
     "countryinfo": "^1.0.3",
     "deep-equal": "^1.1.0",
     "deep-filter-object": "^1.0.0",
+    "gh-pages": "^3.1.0",
     "linear-interpolator": "^1.0.2",
     "lodash": "^4.17.15",
     "markdown-to-jsx": "^6.10.3",
@@ -30,9 +32,11 @@
     "sitemap": "^6.2.0"
   },
   "engines": {
-    "node": "10.13.0"
+    "node": "12.3.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "prestart": "yarn menus",
     "start": "react-scripts start",
     "sitemap": "node ./src/scripts/sitemap-builder",
