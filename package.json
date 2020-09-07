@@ -15,7 +15,6 @@
     "countryinfo": "^1.0.3",
     "deep-equal": "^1.1.0",
     "deep-filter-object": "^1.0.0",
-    "gh-pages": "^3.1.0",
     "linear-interpolator": "^1.0.2",
     "lodash": "^4.17.15",
     "markdown-to-jsx": "^6.10.3",
@@ -32,11 +31,10 @@
     "sitemap": "^6.2.0"
   },
   "engines": {
-    "node": "12.3.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "prestart": "yarn menus",
     "start": "react-scripts start",
     "sitemap": "node ./src/scripts/sitemap-builder",
