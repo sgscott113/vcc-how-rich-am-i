@@ -2,7 +2,7 @@
   "name": "how-rich-am-i",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sgscott113.github.io/vcc-how-rich-am-i",
+  "homepage": "https://vcc-how-rich-am-i.herokuapp.com/",
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "@material-ui/icons": "^4.4.1",
@@ -15,6 +15,7 @@
     "countryinfo": "^1.0.3",
     "deep-equal": "^1.1.0",
     "deep-filter-object": "^1.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "linear-interpolator": "^1.0.2",
