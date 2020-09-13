@@ -518,7 +518,7 @@ const callToActionStyles = theme => ({
   logoBackground: {
     height: 130,
     width: 130,
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.background.default,
     margin: '0 auto',
     display: 'flex',
     alignItems: 'center',
@@ -556,7 +556,7 @@ const styles = theme => ({
         color: '#FFF',
         fontSize: '1rem',
         fontWeight: 700,
-        stroke: theme.palette.background.default,
+        stroke: theme.palette.primary.main,
         strokeWidth: 2,
         paintOrder: 'stroke',
         strokeLinejoin: 'round',
