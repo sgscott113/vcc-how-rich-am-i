@@ -538,10 +538,10 @@ const CallToAction = withStyles(callToActionStyles)(({ classes }) => <Grid conta
         <Typography paragraph>We{"'"}re a global community of people pledging to donate more, and donate more effectively.</Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Button href='https://www.givingwhatwecan.org' color='secondary' variant='contained' fullWidth>Learn more</Button>
+        <Button href='https://www.victorycc.life/give' color='secondary' variant='contained' fullWidth>Learn more</Button>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Button href='https://www.givingwhatwecan.org/pledge' color='primary' variant='contained' fullWidth>Take the Pledge</Button>
+        <Button href='https://www.victorycc.life/page/186' color='primary' variant='contained' fullWidth>Take the Pledge</Button>
       </Grid>
     </Grid>
   </Grid>
