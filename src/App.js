@@ -13,8 +13,8 @@ const {
   REACT_APP_SEGMENT_WRITE_KEY
 } = process.env
 
-const primaryColor = '#6c0000'
-const secondaryColor = '#edede5'
+const primaryColor = '#ed6b37'
+const secondaryColor = '#b1b4b5'
 const sliderHeight = 12
 
 const theme = createMuiTheme({
@@ -30,7 +30,7 @@ const theme = createMuiTheme({
     }
   },
   typography: {
-    fontFamily: ['Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+    fontFamily: ['Interstate', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
     h1: { color: primaryColor, fontWeight: '700' },
     h2: { color: primaryColor, fontWeight: '700' },
     h3: { color: primaryColor, fontWeight: '700' },

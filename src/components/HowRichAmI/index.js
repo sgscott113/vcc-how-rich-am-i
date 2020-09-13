@@ -531,11 +531,11 @@ const CallToAction = withStyles(callToActionStyles)(({ classes }) => <Grid conta
     <Grid container spacing={GRID_SPACING}>
       <Grid item xs={12}>
         <div className={classes.logoBackground}>
-          <img src='https://d33wubrfki0l68.cloudfront.net/18388e7f00903004ecbc40f3599d4989ca66fce3/f0c79/images/logos/gwwc-logo-transparent-nav.png' alt='GWWC logo' />
+          <img src='https://static.wixstatic.com/media/4f3af7_f6224861906e46a68f218a1be53e884a~mv2.png/v1/fill/w_71,h_61,al_c,q_85,usm_0.66_1.00_0.01/Victory%20V.webp' alt='VCC logo' />
         </div>
       </Grid>
       <Grid item xs={12}>
-        <Typography paragraph>We{"'"}re a global community of people pledging to donate more, and donate more effectively.</Typography>
+        <Typography paragraph>Together, we are making an impact in our community and around the world.</Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
         <Button href='https://www.victorycc.life/give' color='secondary' variant='contained' fullWidth>Learn more</Button>
