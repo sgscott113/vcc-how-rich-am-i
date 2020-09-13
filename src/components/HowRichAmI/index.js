@@ -556,7 +556,7 @@ const styles = theme => ({
         color: '#FFF',
         fontSize: '1rem',
         fontWeight: 700,
-        stroke: theme.palette.primary.main,
+        stroke: theme.palette.background.default,
         strokeWidth: 2,
         paintOrder: 'stroke',
         strokeLinejoin: 'round',
