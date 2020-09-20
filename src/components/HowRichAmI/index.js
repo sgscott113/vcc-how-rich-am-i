@@ -436,7 +436,7 @@ DonationComparison.propTypes = {
 
 const donationComparisonsStyles = theme => ({
   mainText: {
-    color: theme.palette.primary.main,
+    color: theme.palette.tertiary.main,
     fontSize: '2rem',
     fontWeight: 700
   }
@@ -538,7 +538,7 @@ const CallToAction = withStyles(callToActionStyles)(({ classes }) => <Grid conta
         <Typography paragraph>Together, we are making an impact in our community and around the world.</Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Button href='https://www.victorycc.life/give' color='secondary' variant='contained' fullWidth>Learn more</Button>
+        <Button href='https://www.victorycc.life/give' color='tertiary' variant='contained' fullWidth>Learn more</Button>
       </Grid>
       <Grid item xs={12} sm={6}>
         <Button href='https://myvictorycc.life/page/186' color='primary' variant='contained' fullWidth>Take the Pledge</Button>
@@ -568,10 +568,10 @@ const styles = theme => ({
     },
     '& .ct-series-a': {
       '& .ct-slice-donut, .ct-slice-bar': {
-        stroke: theme.palette.secondary.main
+        stroke: theme.palette.tertiary.main
       },
       '& .ct-slice-pie': {
-        fill: theme.palette.secondary.main
+        fill: theme.palette.tertiary.main
       },
       '& .ct-bar': {
         stroke: theme.palette.primary.main
@@ -737,9 +737,9 @@ export const HowRichAmIStandalone = withStyles(standaloneStyles)(({ classes }) =
     <AppBar position='fixed'>
       <Container fixed>
         <Toolbar disableGutters>
-          <a href='https://givingwhatwecan.org'>
+          <a href='https://victorycc.life'>
             <div className={classes.logoBackground}>
-              <img src='https://d33wubrfki0l68.cloudfront.net/18388e7f00903004ecbc40f3599d4989ca66fce3/f0c79/images/logos/gwwc-logo-transparent-nav.png' alt='GWWC logo' />
+              <img src='https://static.wixstatic.com/media/4f3af7_f6224861906e46a68f218a1be53e884a%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/4f3af7_f6224861906e46a68f218a1be53e884a%7Emv2.png' alt='VCC logo' />
             </div>
           </a>
           <Typography variant='h6' className={classes.menuTitle}>How Rich Am I?</Typography>

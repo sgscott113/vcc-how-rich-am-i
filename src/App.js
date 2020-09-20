@@ -14,7 +14,8 @@ const {
 } = process.env
 
 const primaryColor = '#ed6b37'
-const secondaryColor = '#b1b4b5'
+const secondaryColor = '#5a5c5f'
+const tertiaryColor = '#b1b4b5'
 const sliderHeight = 12
 
 const theme = createMuiTheme({
@@ -24,6 +25,9 @@ const theme = createMuiTheme({
     },
     secondary: {
       main: secondaryColor
+    },
+    tertiary: {
+      main: tertiaryColor
     },
     background: {
       default: '#FFF'
