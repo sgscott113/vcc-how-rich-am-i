@@ -76,7 +76,7 @@ export const greaterThanZero = input => typeof input === 'number' && input > 0
 
 const controlsStyles = theme => ({
   root: {
-    margin: theme.spacing(GRID_SPACING, 0)
+    margin: theme.spacing(GRID_SPACING, 5)
   }
 })
 
